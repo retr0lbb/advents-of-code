@@ -8,3 +8,8 @@ export function read_input_file(filePath){
     return lines
     
 }
+
+export function read_input_file_as_line(filePath){
+    const md = fs.readFileSync(filePath, "utf-8")
+    return md
+}
