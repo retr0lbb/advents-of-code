@@ -1,6 +1,6 @@
 import {  read_input_file } from "../../utils/read_input_file.js";
 
-function part1(){
+function part2(){
     const inputs = read_input_file("./inputs/input.txt")
 
     function greedyCells(str, numOfCells = 12){
@@ -43,4 +43,4 @@ function part1(){
 
 
 }
-part1()
+part2()
