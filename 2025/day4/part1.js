@@ -49,7 +49,6 @@ function part1(){
         }
     }
 
-    console.log(numsOfValids)
 
     
 }
